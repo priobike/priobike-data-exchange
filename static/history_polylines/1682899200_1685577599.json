@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "start_time": 1682899200,
+        "end_time": 1685577599,
+        "updated_at": 1687779359,
+        "data_type": "history_polylines"
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiLineString",
+          "coordinates": [
+            [
+              [
+                9.74726959999968,
+                53.5993033999819
+              ],
+              [
+                9.74730519999968,
+                53.59927329998191
+              ]
+            ]
+          ]
+        },
+        "properties": {
+            "profiles": [
+                {
+                    "profile": "ebike",
+                    "average_speed": 5.3,
+                    "count": 6
+                },
+                {
+                    "profile": "mountainbike",
+                    "average_speed": 4.3,
+                    "count": 4
+                },
+                {
+                    "profile": "racingbike",
+                    "average_speed": 6.3,
+                    "count": 7
+                },
+                {
+                    "profile": "cargobike",
+                    "average_speed": 3.3,
+                    "count": 4
+                },
+                {
+                    "profile": "default",
+                    "average_speed": 5.3,
+                    "count": 9
+                }
+            ],
+            "total_count": 30,
+            "total_average_speed": 5.3
+        }
+      }
+    ]
+}
