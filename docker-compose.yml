@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  data-exchange-nginx:
+    image: nginx:1.25
+    ports:
+      - "80:80"
+    volumes:
+      # Mount a volume under the shared nginx dir to serve static files
+      - ./static:/usr/share/nginx/html/
