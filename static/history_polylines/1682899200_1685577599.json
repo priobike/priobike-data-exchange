@@ -28,32 +28,32 @@
             "profiles": [
                 {
                     "profile": "ebike",
-                    "average_speed": 5.3,
+                    "average_speed_ms": 5.3,
                     "count": 6
                 },
                 {
                     "profile": "mountainbike",
-                    "average_speed": 4.3,
+                    "average_speed_ms": 4.3,
                     "count": 4
                 },
                 {
                     "profile": "racingbike",
-                    "average_speed": 6.3,
+                    "average_speed_ms": 6.3,
                     "count": 7
                 },
                 {
                     "profile": "cargobike",
-                    "average_speed": 3.3,
+                    "average_speed_ms": 3.3,
                     "count": 4
                 },
                 {
                     "profile": "default",
-                    "average_speed": 5.3,
+                    "average_speed_ms": 5.3,
                     "count": 9
                 }
             ],
             "total_count": 30,
-            "total_average_speed": 5.3
+            "total_average_speed_ms": 5.3
         }
       }
     ]
