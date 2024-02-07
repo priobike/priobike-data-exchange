@@ -1,15 +1,1 @@
-[
-    {
-        "type": "history_polylines",
-        "total_count": 1,
-        "updated_at": 1687779359,
-        "files": [
-            {
-                "start_time": 1682899200,
-                "end_time": 1685577599,
-                "updated_at": 1687779359,
-                "path": "history_polylines/1682899200_1685577599.json"
-            }
-        ]
-    }
-]
+{"type": "history_polylines", "total_count": 0, "updated_at": 0, "files": []}
