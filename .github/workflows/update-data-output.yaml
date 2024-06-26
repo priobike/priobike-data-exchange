@@ -4,6 +4,7 @@ on: workflow_dispatch
 
 jobs:
   run_processing:
+    # Is not allowed to run on GitHub-hosted runners because of the track data which needs to stay on TU Dresden servers.
     runs-on: self-hosted
     container: ubuntu:22.04
     steps:
